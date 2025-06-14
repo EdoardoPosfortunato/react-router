@@ -1,12 +1,23 @@
-# React + Vite
+**Esercizio 1**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Creiamo il frontend del nostro Blog e le sue pagine!
+- Partiamo installando React Router DOM: `npm install react-router-dom`
+- Definiamo almeno 3 pagine: una homepage, una pagina “chi siamo” e una pagina con la lista dei post. (Potete fare una chiamata API a https://67c5b4f3351c081993fb1ab6.mockapi.io/api/posts per avere una lista dei post)
+- Implementiamo una navbar in comune a tutte le pagine per poter navigare tra loro
+**Bonus
+- Centralizzare la Navbar grazie a un Layout
+- Gestire la classe *active*
 
-Currently, two official plugins are available:
+**Esercizio 2**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Ciao ragazzi,
+Esercizio di oggi: React Blog Pages (2)
+repo: react-router  (stessa di ieri)
+Consegna
+Completiamo il nostro routing con l’aggiunta delle pagine di dettaglio e della creazione del post!
+- Aggiungiamo i link alla lista dei post
+- Facciamo quindi in modo di raggiungere la pagina di dettaglio del singolo post
+- Al submit del form reindirizziamo l'utente verso la pagina di dettaglio del post creato
+Bonus
+1. Aggiungiamo la possibilità di ritornare dalla pagina di dettagli alla pagina precedente
+2. Gestire la pagina Not found
