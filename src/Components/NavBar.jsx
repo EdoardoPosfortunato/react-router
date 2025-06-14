@@ -18,7 +18,7 @@ const NavBar = () => {
         },
                 {
             title: "New Posts",
-            url: "/Posts/NewPost",
+            url: "/Posts/New",
         }
     ];
 
